@@ -1,6 +1,14 @@
 fastapi
 uvicorn[standard]
 python-multipart
-pydantic
-aiofiles
-requests
+pydub
+ffmpeg-python
+
+faster-whisper==1.0.0
+torch==2.1.0
+
+transformers==4.38.0
+sentencepiece
+protobuf
+numpy
+
