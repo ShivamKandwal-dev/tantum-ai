@@ -45,9 +45,3 @@ def worker_update(
 ):
     update_job_status(job_id, status, result_url)
     return {"ok": True}
-
-app = FastAPI()
-
-@app.get("/")
-def home():
-    return {"status": "Tantum-AI backend is running!"}
