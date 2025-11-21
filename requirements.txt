@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-python-multipart
+python-3.10.12
 pydub
 ffmpeg-python
 
